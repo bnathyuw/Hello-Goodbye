@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloGoodbye.Tests", "Hello
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloGoodbye.ConsoleApp", "HelloGoodbye.ConsoleApp\HelloGoodbye.ConsoleApp.csproj", "{A47FC8D8-9019-4B1F-B04C-3D2F615F5DA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloGoodbye.Specs", "HelloGoodbye.Specs\HelloGoodbye.Specs.csproj", "{91CA65DE-1918-49DF-A559-B16C6366A0CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A47FC8D8-9019-4B1F-B04C-3D2F615F5DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A47FC8D8-9019-4B1F-B04C-3D2F615F5DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A47FC8D8-9019-4B1F-B04C-3D2F615F5DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91CA65DE-1918-49DF-A559-B16C6366A0CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91CA65DE-1918-49DF-A559-B16C6366A0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91CA65DE-1918-49DF-A559-B16C6366A0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91CA65DE-1918-49DF-A559-B16C6366A0CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
