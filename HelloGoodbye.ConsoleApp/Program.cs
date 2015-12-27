@@ -1,4 +1,4 @@
-﻿using System;
+﻿using static System.Console;
 
 namespace HelloGoodbye.ConsoleApp
 {
@@ -6,11 +6,27 @@ namespace HelloGoodbye.ConsoleApp
     {
         public static void Main()
         {
-            while (Console.ReadLine() != "Hello")
+
+            string input;
+            do
             {
-                Console.WriteLine("Say that again.");
+                input = ReadLine();
+                var output = GetOutput(input);
+                WriteLine(output);
+            } while (input != "Hello");
+        }
+
+        private static string GetOutput(string input)
+        {
+            switch (input)
+            {
+                case "Hello":
+                    return "Goodbye";
+                case "Merry Christmas":
+                    return "And a Happy New Year";
+                default:
+                    return "Say that again.";
             }
-            Console.WriteLine("Goodbye");
         }
     }
 }

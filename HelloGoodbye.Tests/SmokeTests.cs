@@ -43,5 +43,12 @@ namespace HelloGoodbye.Tests
             _process.StandardInput.WriteLine("Sausages");
             Assert.That(_process.StandardOutput.ReadLine(), Is.EqualTo("Say that again."));
         }
+
+        [Test]
+        public void When_I_say_Merry_Christmas_you_say_And_a_Happy_New_Year()
+        {
+            _process.StandardInput.WriteLine("Merry Christmas");
+            Assert.That(_process.StandardOutput.ReadLine(), Is.EqualTo("And a Happy New Year"));
+        }
     }
 }
